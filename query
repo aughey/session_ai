@@ -1,0 +1,140 @@
+<ol start="21" class="manifest-inventory split">
+<li class="manifest-item">
+<a-preview data-tuneid="42"><a href="/tunes/42" class="manifest-item-title">The Gravel Walks</a></a-preview>
+<span class="manifest-item-title detail">
+reel
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="60"><a href="/tunes/60" class="manifest-item-title">The Lilting Banshee</a></a-preview>
+<span class="manifest-item-title detail">
+jig
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="449"><a href="/tunes/449" class="manifest-item-title">Sí Bheag Sí Mhór</a></a-preview>
+<span class="manifest-item-title detail">
+waltz
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="62"><a href="/tunes/62" class="manifest-item-title">The Lark In The Morning</a></a-preview>
+<span class="manifest-item-title detail">
+jig
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="98"><a href="/tunes/98" class="manifest-item-title">The Sally Gardens</a></a-preview>
+<span class="manifest-item-title detail">
+reel
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="74"><a href="/tunes/74" class="manifest-item-title">The Mason’s Apron</a></a-preview>
+<span class="manifest-item-title detail">
+reel
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="68"><a href="/tunes/68" class="manifest-item-title">The Mountain Road</a></a-preview>
+<span class="manifest-item-title detail">
+reel
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="103"><a href="/tunes/103" class="manifest-item-title">Saint Anne’s</a></a-preview>
+<span class="manifest-item-title detail">
+reel
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="12"><a href="/tunes/12" class="manifest-item-title">The Cliffs Of Moher</a></a-preview>
+<span class="manifest-item-title detail">
+jig
+</span>
+</li><!-- /.manifest-item -->
+<li class="manifest-item">
+<a-preview data-tuneid="651"><a href="/tunes/651" class="manifest-item-title">The Boys Of Bluehill</a></a-preview>
+<span class="manifest-item-title detail">
+hornpipe
+</span>
+</li><!-- /.manifest-item -->
+</ol><!-- /.manifest-inventory.split -->
+
+
+
+
+<div class="pagination">
+<a-ajax data-container="#results">
+<a href="?type=&amp;mode=&amp;q=&amp;page=2" rel="prev" aria-labelledby="previoustitle">
+<svg  xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32" width="40" role="img">
+<title id="previoustitle">Previous</title>
+<circle fill="rgb(170,68,17)" cx="16" cy="16" r="15.75"/>
+<polygon fill="rgb(255,255,204)" points="20,26 8,16 20,6"/>
+</svg>
+</a>
+</a-ajax>
+Page 3 of 2,223
+<a-ajax data-container="#results">
+<a href="?type=&amp;mode=&amp;q=&amp;page=4" rel="next" aria-labelledby="nexttitle">
+<svg  xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32" width="40" role="img">
+<title id="nexttitle">Next</title>
+<circle fill="rgb(170,68,17)" cx="16" cy="16" r="15.75"/>
+<polygon fill="rgb(255,255,204)" points="12,26 24,16 12,6"/>
+</svg>
+</a>
+</a-ajax>
+</div>
+
+<search role="search">
+<form method="get" action="/tunes/search">
+<label for="tunetype">Search</label>
+<select id="tunetype" name="type">
+<option value="">all tunes</option>
+<option value="jig">jigs</option>
+<option value="reel">reels</option>
+<option value="slip jig">slip jigs</option>
+<option value="hornpipe">hornpipes</option>
+<option value="polka">polkas</option>
+<option value="slide">slides</option>
+<option value="waltz">waltzes</option>
+<option value="barndance">barndances</option>
+<option value="strathspey">strathspeys</option>
+<option value="three-two">three-twos</option>
+<option value="mazurka">mazurkas</option>
+<option value="march">marches</option>
+</select>
+<label for="tunemode">in</label>
+<select id="tunemode" name="mode">
+<option value="">all keys</option>
+<option value="Amajor">Amajor</option>
+<option value="Aminor">Aminor</option>
+<option value="Adorian">Adorian</option>
+<option value="Amixolydian">Amixolydian</option>
+<option value="Bminor">Bminor</option>
+<option value="Cmajor">Cmajor</option>
+<option value="Dmajor">Dmajor</option>
+<option value="Dminor">Dminor</option>
+<option value="Eminor">Eminor</option>
+<option value="Fmajor">Fmajor</option>
+<option value="Gmajor">Gmajor</option>
+<option value="Dmixolydian">Dmixolydian</option>
+<option value="Bmixolydian">Bmixolydian</option>
+<option value="Edorian">Edorian</option>
+<option value="Gdorian">Gdorian</option>
+<option value="Gminor">Gminor</option>
+<option value="Ddorian">Ddorian</option>
+<option value="Cdorian">Cdorian</option>
+<option value="Fdorian">Fdorian</option>
+<option value="Gmixolydian">Gmixolydian</option>
+<option value="Emajor">Emajor</option>
+<option value="Bdorian">Bdorian</option>
+<option value="Emixolydian">Emixolydian</option>
+</select>
+<label for="tunename">for</label>
+<input-search data-where="tunes">
+<input id="tunename" type="search" spellcheck="false" inputmode="search" name="q" placeholder="e.g. Banish Misfortune or E2BE dEBE" autocomplete="off" enterkeyhint="search">
+</input-search>
+<button type="submit">search</button>
+</form>
+</search><!-- /@search -->
